@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Parse the data given in random ride Object and present in human-readable format, ie: Noober X Passenger: Kiley Thompson - (260) 908-6886. Pickup at 1301 N State Pkwy, Chicago, IL 60624. Dropoff at 2362 N Clybourn Ave, Chicago, IL 60657.
   
   // Define ride types for purpleRequested (Noober Purple or X) amd numberOfPassengers > 3 for Noober XL
-    let purpleReq = ride.purpleRequested
-    let numberOfPass = ride.numberOfPassengers
-    let rideType
+  let purpleReq = ride.purpleRequested
+  let numberOfPass = ride.numberOfPassengers
+  let rideType
 
   // Create ride type conditional based on # of passengers, purple,ect. and store in memory
     if (purpleReq == true) {
